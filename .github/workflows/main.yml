@@ -27,4 +27,4 @@ jobs:
 
     - name: Run application
       run: |
-        python main.py  # Adjust this command if needed
+        python flet run --web gas  # Adjust this command if needed
