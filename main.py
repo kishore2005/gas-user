@@ -141,7 +141,7 @@ def show_products(page, user):
         if status:
             product_details.append(ft.Text(f"Status: {status}", size=20, color=ft.colors.BLUE, text_align=ft.TextAlign.CENTER))
 
-        product_details.append(ft.ElevatedButton(text="Book Now", on_click=on_book, style=ft.ButtonStyle(bgcolor=ft.colors.BLUE, color=ft.colors.WHITE, shape=ft.RoundedRectangleBorder(radius=10), elevation=5, padding=16, text_style=ft.TextStyle(size=18, weight=ft.FontWeight.BOLD))))
+        product_details.append(ft.ElevatedButton(text="Book Now", on_click=on_book, style=ft.ButtonStyle(bgcolor=ft.colors.BLUE, color=ft.colors.WHITE, shape=ft.RoundedRectangleBorder(radius=10), elevation=5, padding=16)))
 
 
         product_container = ft.Container(
